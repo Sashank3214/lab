@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+body {
+    background-image: url(antoine-barres-jay5BqVyf5A-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.containerc {
+  max-width: 600px;
+  margin:  auto;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #ff6600;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  color: #ff6600;
+  font-size: 16px;
+  padding: 0;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#response {
+  margin-top: 20px;
+  text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="h1">
+            <p id="h11">Car <span id="h12">Rentals</span></p>
+        </div>
+        <div id="h2">
+            <a href="home.html">Home</a>
+            <a href="car.html">Cars</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+
+
+    <div class="containerc">
+      <h1>Contact Us</h1>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+      <div id="response"></div>
+    </div>
+  
+    <script src="script.js"></script>
+
+
+
+    <footer>
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="car.html">Cars</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p>123 Car z Rentals St, City</p>
+            <p>Phone: +1234567890</p>
+            <p>Email: info@Carzrentals.com</p>
+          </div>
+          <div class="footer-column">
+            <h3>Follow Us</h3>
+            <ul class="social-links">
+              <li><a href="#"><i class="fab fa-facebook-f white-icon">facebook</i></a></li>
+              <li><a href="#"><i class="fab fa-twitter white-icon">twitter</i></a></li>
+              <li><a href="#"><i class="fab fa-instagram white-icon">instagram</i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin-in white-icon">linkedin</i></a></li>
+            </ul>              
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 CarZ Rentals Company. All rights reserved.</p>
+        </div>
+      </footer>
+      
